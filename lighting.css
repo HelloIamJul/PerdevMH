@@ -1,0 +1,39 @@
+BODY{
+	margin:0;
+	padding:0;
+	display:flex;
+	justify-content:center;
+	min-height:40vh;
+
+	font-family:consolas;
+
+
+}
+a{
+
+position:relative;
+top:300px;
+display:inline-block;
+padding:15px 30px;
+color:black;
+text-transform:uppercase;
+letter-spacing:4px;
+text-decoration:none;
+font-size:40px;
+
+transition:0.2s;
+height:40px;
+
+
+}
+a:hover
+{
+
+color:white;
+background:gray;
+box-shadow: 0 0 10px white, 0 0 40px white;
+height:40px;
+
+
+
+}
